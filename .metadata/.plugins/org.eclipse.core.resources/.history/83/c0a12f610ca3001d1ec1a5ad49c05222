@@ -1,0 +1,17 @@
+package ques.Daily;
+
+public class FrequencyList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//
+	}
+	
+	public static void getStringFrequency(String sentence)
+	{
+		String words_arr[] = sentence.split(" ");
+		
+		System.out.println(words_arr);
+	}
+
+}

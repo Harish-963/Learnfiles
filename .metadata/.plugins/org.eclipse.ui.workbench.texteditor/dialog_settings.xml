@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="callablestatement"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="prepared_statement"/>
+			<item value="enabled = true"/>
+			<item value="toLowerCase"/>
+			<item value="toLo"/>
+			<item value="println"/>
+			<item value="prin"/>
+			<item value="Books"/>
+			<item value="Book"/>
+			<item value="thread1"/>
+			<item value="@Test("/>
+			<item value="s"/>
+			<item value="arr"/>
+			<item value="get"/>
+			<item value="jeep"/>
+		</list>
+		<list key="replacehistory">
+			<item value="callablestatement"/>
+			<item value="enabled = false"/>
+			<item value="BooksT"/>
+			<item value="Books"/>
+			<item value="thread2"/>
+			<item value="@Test(enabled = true,"/>
+			<item value="letters"/>
+			<item value="v"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="530"/>
+		<item key="DIALOG_Y_ORIGIN" value="112"/>
+		<item key="DIALOG_WIDTH" value="322"/>
+		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

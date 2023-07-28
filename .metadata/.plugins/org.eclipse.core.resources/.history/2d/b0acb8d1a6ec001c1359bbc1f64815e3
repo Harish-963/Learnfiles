@@ -1,0 +1,18 @@
+package Genrics;
+
+public class GenericMethodsEX {
+public static void main(String[] args) {
+	
+	
+}
+	
+//method with single parameters
+private static <Type> void PrintingU(Type WhattoPrint) {
+	System.out.println(WhattoPrint+"!!!!!");
+}
+
+//method with multiple parameters
+private static <Type1,Type2> void PrintingU(Type1 WhattoPrint1, Type2 WhattoPrint2) {
+	System.out.println(WhattoPrint1+"!!!!!");
+	System.out.println(WhattoPrint1+"!!!!!"+WhattoPrint2);
+}

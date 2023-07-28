@@ -1,0 +1,22 @@
+package CustomAnnotations;
+
+@VeryImportant
+public class Cat {
+
+	String name;
+	int age;
+
+	public Cat(String name) {
+		// TODO Auto-generated constructor stub
+		this.name = name;
+	}
+	@RunImmediately(count = 3)
+	public void meow() {
+		System.out.println("Meow!!");
+	}
+
+	public void eat() {
+		System.out.println("Munch!");
+	}
+
+}

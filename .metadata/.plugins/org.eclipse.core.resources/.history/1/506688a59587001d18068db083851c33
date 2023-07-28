@@ -1,0 +1,19 @@
+package CustomAnnotations;
+
+import java.lang.reflect.Method;
+
+public class MethodsAnnotationCreation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Cat mycat = new Cat("leone");
+		
+		for(Method method:mycat.getClass().getDeclaredMethods())
+		{
+			
+		}
+
+	}
+
+}

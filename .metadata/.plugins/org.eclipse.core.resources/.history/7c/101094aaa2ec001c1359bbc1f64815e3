@@ -1,0 +1,14 @@
+package Genrics;
+
+public class AllPrintermultiple <T,T1>{
+
+	private T whatToPrint1;
+	private T1 whatToPrint2;
+	
+	
+	void printing()
+	{
+		System.out.println(whatToPrint1 +"\t"+ whatToPrint2);
+	}
+	
+}

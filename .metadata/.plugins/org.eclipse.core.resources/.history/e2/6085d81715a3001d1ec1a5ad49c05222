@@ -1,0 +1,25 @@
+package ques.Daily;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map.Entry;
+
+public class FrequencyList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//
+		getStringFrequency("I am a Boy BroSir");
+	}
+	
+	public static void getStringFrequency(String sentence)
+	{
+		String[] words_arr= sentence.split(" ");
+		List<String> words_list = Arrays.asList(words_arr);
+		HashMap<Integer,List<String>> map = new HashMap<>();
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+package ques.Daily;
+
+import java.util.HashMap;
+
+public class FrequencyList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//
+		getStringFrequency("I am a Boy BroSir");
+	}
+	
+	public static void getStringFrequency(String sentence)
+	{
+		String words_arr[] = sentence.split(" ");
+		HashMap<Integer,String[]> map = new HashMap<>();
+		for(String word: words_arr)
+		{
+			if(!map.containsKey(map.containsKey(word.length())))
+		}
+		
+	}
+
+}

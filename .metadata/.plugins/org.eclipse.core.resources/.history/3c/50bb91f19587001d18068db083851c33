@@ -1,0 +1,23 @@
+package CustomAnnotations;
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
+public class MethodsAnnotationCreation {
+
+	public static void main(String[] args) throws IllegalAccessException, IllegalArgumentException, InvocationTargetException {
+		// TODO Auto-generated method stub
+		
+		Cat mycat = new Cat("leone");
+		
+		for(Method method:mycat.getClass().getDeclaredMethods())
+		{
+			if(method.isAnnotationPresent(RunImmediately.class))
+			{
+				method.invoke(mycat, "Lamis");
+			}
+		}
+
+	}
+
+}

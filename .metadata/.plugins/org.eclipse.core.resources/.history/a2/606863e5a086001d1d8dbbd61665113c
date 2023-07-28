@@ -1,0 +1,19 @@
+package CustomAnnotations;
+
+public class CreatingAnnotations {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Cat mycat = new Cat("Jimmy");
+
+		if(mycat.getClass().isAnnotationPresent(VeryeImportant.class)){
+			System.out.println("This thing is very important");
+		}
+		else
+		{
+			System.out.println("This thing is not important");
+		}
+	}
+
+}

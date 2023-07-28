@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Collections.Nv.java&apos; to &apos;NavigableSetTest.java&apos;&#x0D;&#x0A;- Original project: &apos;Learn&apos;&#x0D;&#x0A;- Original element: &apos;Collections.Nv.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Collections.NavigableSetTest.java&apos;" description="Rename compilation unit &apos;Nv.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;Collections{Nv.java" name="NavigableSetTest.java" references="false" stamp="1658844051191" version="1.0"/>
+</session>

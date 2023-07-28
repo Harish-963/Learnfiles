@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;scalermultithreading&apos; to &apos;Fundamentals/src&apos;&#x0D;&#x0A;- Original project: &apos;Fundamentals&apos;&#x0D;&#x0A;- Destination element: &apos;Fundamentals/src&apos;&#x0D;&#x0A;- Original element: &apos;Fundamentals/src/scalermultithreading&apos;" description="Copy package" destination="/src" element1="/src&lt;scalermultithreading" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1678379940670" version="1.0"/>
+</session>

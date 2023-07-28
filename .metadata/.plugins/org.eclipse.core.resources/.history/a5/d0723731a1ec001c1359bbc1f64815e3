@@ -1,0 +1,7 @@
+package Genrics;
+
+public class AllPrinter <T>{
+
+	T whatToPrint; 
+	
+}

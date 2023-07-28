@@ -1,0 +1,20 @@
+package Genrics;
+
+//Single parameter
+public class AllPrinter <T>{
+
+	private T whatToPrint;
+
+	public AllPrinter(T whatToPrint) {
+		this.whatToPrint = whatToPrint;
+	} 
+	
+	void printing()
+	{
+		whatToPrint.doubleValue();
+		System.out.println(whatToPrint);
+	}
+	
+}
+
+

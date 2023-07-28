@@ -1,0 +1,15 @@
+package Genrics;
+
+public class GenericWildCards {
+
+	//wildsCards are represented by "?".
+	//we use wild cards when we don't know what type of thing is used..
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	private static void PrintingU(List<Object> listing) {
+		System.out.println(listing);
+	}
+}

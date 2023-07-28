@@ -1,0 +1,13 @@
+package CustomAnnotations;
+
+public class Cat {
+
+	String name;
+	int age;
+
+	public Cat(String name) {
+		// TODO Auto-generated constructor stub
+		this.name = name;
+	}
+
+}

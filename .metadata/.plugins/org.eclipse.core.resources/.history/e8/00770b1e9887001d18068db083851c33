@@ -1,0 +1,7 @@
+package CustomAnnotations;
+
+
+@Target(value = {"String"})
+public @interface ImportantStrings {
+
+}

@@ -1,0 +1,18 @@
+package Genrics;
+
+public class AllPrinter <T>{
+
+	private T whatToPrint;
+
+	public AllPrinter(T whatToPrint) {
+		this.whatToPrint = whatToPrint;
+	} 
+	
+	void printing()
+	{
+		System.out.println(whatToPrint);
+	}
+	
+	
+	
+}

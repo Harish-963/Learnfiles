@@ -1,0 +1,30 @@
+package Genrics;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class GenericWildCards {
+
+	//wildsCards are represented by "?".
+	//we use wild cards when we don't know what type of thing is used..
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		List<Integer> list=new ArrayList<>();
+		list.add(9);
+		//it will not work as List<Integer> is not a subclass of List<Objects> .. below one uncommet and try
+		PrintingU(list);
+		
+		//it will work as it is using wildcards
+		PrintingUs(list);
+	}
+
+	private static void PrintingU(List<Object> listing) {
+		System.out.println(listing);
+	}
+	
+	//using wild cards
+	private static void PrintingUs(List<?> listing) {
+		System.out.println(listing);
+	}
+}

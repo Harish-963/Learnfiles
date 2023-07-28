@@ -1,0 +1,21 @@
+package Genrics;
+
+import javax.print.DocFlavor.STRING;
+
+//Single parameter
+public class AllPrinter <T extends STRINGg>{
+
+	private T whatToPrint;
+
+	public AllPrinter(T whatToPrint) {
+		this.whatToPrint = whatToPrint;
+	} 
+	
+	void printing()
+	{
+		System.out.println(whatToPrint);
+	}
+	
+}
+
+
